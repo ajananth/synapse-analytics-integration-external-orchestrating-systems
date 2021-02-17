@@ -4,4 +4,5 @@ Many organisations are currently leveraging Azure Synapse Analytics to bring tog
 
 In this article, I've captured the steps required to perform both management & data plane operations using the REST API framework using a few examples. The same concepts apply other REST API methods offered by the service.
 
-## Step 1
+## Step 1 - Create a Registered Application
+
