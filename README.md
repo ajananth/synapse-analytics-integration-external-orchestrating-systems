@@ -4,7 +4,7 @@ Many organisations are currently leveraging Azure Synapse Analytics to bring tog
 
 In this article, I've captured the steps required to perform both management & data plane operations using the REST API framework using a few examples. The same concepts apply to other REST API methods offered by the service. The testing was done using Postman as a client, but any application capable of making REST API calls can leverage the same process.
 
-## Step 1 - Create a Registered Application
+### Step 1 - Create a Registered Application
 
 ## Step 2 - Grant Permissions
 
