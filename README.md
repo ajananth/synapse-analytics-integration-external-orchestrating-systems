@@ -8,6 +8,11 @@ In this article, I've captured the steps required to perform both management & d
 
 ## Step 2 - Grant Permissions
 
-### Test
+## Step 3 - Retrieve a Token for Management Plane Operations
 
-## Step 3 - 
+## Step 4 - Perform a Management Plane Operation (Retrieving Workspace Details)
+
+## Step 3 - Retrieve a Token for Data Plane Operations
+
+## Step 4 - Perform a Data Plane Operation (Publishing a SQL Script)
+
