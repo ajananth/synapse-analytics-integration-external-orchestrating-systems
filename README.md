@@ -14,7 +14,7 @@ For the purpose of this article, I've created a registered application called sy
 
 ## Grant Permissions
 
-Grant the service principal (SPN) appropriate access to Synapse Analytics. For the purpose of this article, I've given then synapserestapiapp SPN Owner access in IAM to the Synapse workspace to perform all management plane operations and the Synapse Administrator RBAC role within the Synapse workspace so that it can perform all data plane operations. In a production environment, appropriate permissions need to be granted to ensure the SPN only has the access it requires.
+Grant the service principal (SPN) appropriate access to Synapse Analytics. For the purpose of this article, I've given then synapserestapiapp SPN Owner access in IAM to the Synapse workspace and the Synapse Administrator RBAC role within the Synapse workspace so that it can perform all operations. In a production environment, appropriate permissions need to be granted to ensure the SPN only has the access it requires.
 
 #### IAM
 ![alt text](images/iam.png?raw=true)
