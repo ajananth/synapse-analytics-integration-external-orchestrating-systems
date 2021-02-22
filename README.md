@@ -24,11 +24,18 @@ Grant the service principal (SPN) appropriate access to Synapse Analytics. For t
 
 ## Retrieve a Token for Management Plane Operations
 
+
+
 ## Perform a Management Plane Operation (Retrieving Workspace Details)
 
 ## Retrieve a Token for Data Plane Operations
 
-## Perform a Data Plane Operation (Publishing a SQL Script)
+## Perform a Data Plane Operation (Executing a Pipeline)
+
+## Perform a Data Plane Operation (Monitoring Pipeline Status)
+
+## Perform a Data Plane Operation (Executing a Spark Job)
+
 
 ### Appendix
 
