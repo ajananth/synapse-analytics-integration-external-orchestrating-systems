@@ -6,7 +6,13 @@ In this article, I've captured the steps required to perform both management & d
 
 ## Create a Registered Application
 
+The first step is to create a registered application in Azure AD. A secret needs to be created for the application, which will be used to retrieve a bearer token for using in subsequent API calls. Details on creating a registered application are available here - https://docs.microsoft.com/en-us/rest/api/azure/#register-your-client-application-with-azure-ad
+
+For the purpose of this article, I've created a registered application called synapserestapiapp.
+
 ## Grant Permissions
+
+
 
 ## Retrieve a Token for Management Plane Operations
 
