@@ -2,7 +2,7 @@
 
 Azure Synapse Analytics makes use of the Synapse Studio interface for enabling collaboration between data engineers, data scientists and end users. In addition to making use of Synapse Studio, an organisation could make use of interfaces made available by Azure such as the REST API framework, Azure CLI & SDKs to integrate Synapse Analytics with its own internal systems. By doing so, an external system could automate processes such as execution of pipelines & spark jobs while another could monitor the progress of jobs and action failures, etc.
 
-In this article, I've captured the steps required to perform both management & data plane operations using Azure's REST API framework using a few examples. The testing was done using Postman as a client, but any application capable of making REST API calls can leverage the same process. The same concepts apply to other interfaces such as the Azure CLI, Python SDK, etc.
+In this article, I've captured the steps required to perform both management & data plane operations using Azure's REST API framework using a few examples. The testing was done using Postman as a client, but any application capable of making REST API calls can leverage the same process. The same concepts apply to other interfaces such as the Azure CLI, Python SDK, etc. so if the preference is to use those interfaces, the corresponding methods can be called.
 
 ## Create a Registered Application
 
@@ -13,6 +13,8 @@ For the purpose of this article, I've created a registered application called sy
 ![alt text](images/ra.png?raw=true)
 
 ## Grant Permissions
+
+Grant the service principal (SPN) appropriate access to Synapse Analytics. For the purpose of this article, I've given then synapserestapiapp SPN Owner access in IAM to the Synapse workspace to perform all management plane operations and the Synapse Administrator RBAC role within the Synapse workspace so that it can perform all data plane operations. In a production environment, appropriate permissions need to be granted to ensure the SPN only has the access it requires.
 
 
 
@@ -27,5 +29,5 @@ For the purpose of this article, I've created a registered application called sy
 ### Appendix
 
 * The full list of REST API methods for Synapse Analytics is available here - https://docs.microsoft.com/en-us/rest/api/synapse/
-* The documentation on Azure CLI methods is available here - https://docs.microsoft.com/en-us/cli/azure/ext/synapse/synapse?view=azure-cli-latest
-* The documentation on the Python SDK methods is available here - https://docs.microsoft.com/en-us/python/api/overview/azure/synapse?view=azure-python
+* The documentation on corresponding Azure CLI methods is available here - https://docs.microsoft.com/en-us/cli/azure/ext/synapse/synapse?view=azure-cli-latest
+* The documentation on corresponding Python SDK methods is available here - https://docs.microsoft.com/en-us/python/api/overview/azure/synapse?view=azure-python
