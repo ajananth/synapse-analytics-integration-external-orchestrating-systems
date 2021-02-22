@@ -10,6 +10,8 @@ The first step is to create a registered application in Azure AD. A secret needs
 
 For the purpose of this article, I've created a registered application called synapserestapiapp.
 
+![alt text](images/ra.png?raw=true)
+
 ## Grant Permissions
 
 
