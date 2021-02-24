@@ -28,9 +28,13 @@ Azure AD authentication tokens for management plane operations are retrieved usi
 
 ```https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/token```
 
-Pass in the client credentials of the registered application along with the appropriate scope
+Pass in the client credentials of the registered application along with the appropriate scope.
 
+![alt text](images/mgmtpl.png?raw=true)
 
+When the request is successful, a token is received which needs to be passed to subsequent management plane related API calls.
+
+![alt text](images/atok.png?raw=true)
 
 ## Perform a Management Plane Operation (Retrieving Workspace Details)
 
