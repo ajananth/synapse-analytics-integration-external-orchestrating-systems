@@ -24,6 +24,12 @@ Grant the service principal (SPN) appropriate access to Synapse Analytics. For t
 
 ## Retrieve a Token for Management Plane Operations
 
+Azure AD authentication tokens for management plane operations are retrieved using the URL shown below (replace tenantId with your own).
+
+```https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/token```
+
+Pass in the client credentials of the registered application along with the appropriate scope
+
 
 
 ## Perform a Management Plane Operation (Retrieving Workspace Details)
