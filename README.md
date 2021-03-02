@@ -32,6 +32,18 @@ When the request is successful, a token is received which needs to be passed to 
 
 ## Perform a Management Plane Operation (Retrieving Workspace Details)
 
+To perform a management plane operation such as retrieving workspace details, make a call to the REST API and pass in the required parameters (in the call below, change subscriptionId, resourceGroupName and workspaceName to your own values).
+
+```https://management.azure.com/subscriptions/{{subscriptionId}}/resourceGroups/{{resourceGroupName}}/providers/Microsoft.Synapse/workspaces/{{workspaceName}}?api-version=2019-06-01-preview```
+
+Ensure you pass in the bearer token retrieved in the previous call.
+
+![alt text](images/mtok.png?raw=true)
+
+If the call is successful, workspace details should be retrieved in a JSON packet.
+
+![alt text](images/wsps.png?raw=true)
+
 ## Retrieve a Token for Data Plane Operations
 
 ## Perform a Data Plane Operation (Executing a Pipeline)
