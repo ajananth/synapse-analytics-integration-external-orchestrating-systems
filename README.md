@@ -30,7 +30,7 @@ When the request is successful, a token is received which needs to be passed to 
 
 ![alt text](images/atok.png?raw=true)
 
-## Perform a Management Plane Operation (Retrieving Workspace Details)
+## Perform a Management Plane Operation (e.g. Retrieving Workspace Details)
 
 To perform a management plane operation such as retrieving workspace details, make a call to the REST API and pass in the required parameters (in the call below, change subscriptionId, resourceGroupName and workspaceName to your own values).
 
@@ -56,13 +56,13 @@ Pass in the client credentials of the registered application along with the appr
 
 When successful, the call returns a bearer token, which needs to be passed in subsequent API calls.
 
-## Perform a Data Plane Operation (Executing a Pipeline)
+## Perform a Data Plane Operation (e.g. Executing a Pipeline)
 
 
 
-## Perform a Data Plane Operation (Monitoring Pipeline Status)
+## Perform a Data Plane Operation (e.g. Monitoring Pipeline Status)
 
-## Perform a Data Plane Operation (Executing a Spark Job)
+## Perform a Data Plane Operation (e.g. Executing a Spark Job)
 
 
 ### Appendix
