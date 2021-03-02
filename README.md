@@ -46,7 +46,19 @@ If the call is successful, workspace details should be retrieved in a JSON packe
 
 ## Retrieve a Token for Data Plane Operations
 
+Retrieving a token for performing data plane opertions such as executing pipelines, monitoring pipeline status, executing spark jobs, etc. is done as shown below (replace tenantId with your own).
+
+```https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/token```
+
+Pass in the client credentials of the registered application along with the appropriate scope (note dev.azuresynapse.net).
+
+![alt text](images/dtok.png?raw=true)
+
+When successful, the call returns a bearer token, which needs to be passed in subsequent API calls.
+
 ## Perform a Data Plane Operation (Executing a Pipeline)
+
+
 
 ## Perform a Data Plane Operation (Monitoring Pipeline Status)
 
