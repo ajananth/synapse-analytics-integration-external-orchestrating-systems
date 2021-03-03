@@ -84,10 +84,13 @@ When successful, details regarding the pipeline run are retrieved.
 
 ## Perform a Data Plane Operation (e.g. Executing a Spark Job)
 
+The above concept can be applied to executing Spark jobs as well (replace synapseWorkspace & sparkJobDefinition with your own).
+
+```https://{{synapseWorkspace}}.dev.azuresynapse.net/sparkJobDefinitions/{{sparkJobDefinition}}/execute?api-version=2019-06-01-preview```
 
 ![alt text](images/sprk.png?raw=true)
 
-
+When successful, details regarding the job execution are returned, which can be used to monitor the job.
 
 ![alt text](images/spdt.png?raw=true)
 
