@@ -72,6 +72,16 @@ When successful, this would return a Run ID, which can be used in a subsequent c
 
 ## Perform a Data Plane Operation (e.g. Monitoring Pipeline Status)
 
+Using the Run ID retrieved in the call above, a call can be made to fetch the status of the pipeline run (replace synapseWorkspace & rudId with your own).
+
+```https://{{synapseWorkspace}}.dev.azuresynapse.net/pipelineruns/{{rudId}}?api-version=2019-06-01-preview```
+
+![alt text](images/mnpl.png?raw=true)
+
+When successful, details regarding the pipeline run are retrieved.
+
+![alt text](images/plst.png?raw=true)
+
 ## Perform a Data Plane Operation (e.g. Executing a Spark Job)
 
 
