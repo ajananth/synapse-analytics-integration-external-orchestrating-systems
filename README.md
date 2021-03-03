@@ -85,6 +85,12 @@ When successful, details regarding the pipeline run are retrieved.
 ## Perform a Data Plane Operation (e.g. Executing a Spark Job)
 
 
+![alt text](images/sprk.png?raw=true)
+
+
+
+![alt text](images/spdt.png?raw=true)
+
 ### Appendix
 
 * The full list of REST API methods for Synapse Analytics is available here - https://docs.microsoft.com/en-us/rest/api/synapse/
