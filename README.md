@@ -62,7 +62,7 @@ To execute a Synapse pipeline, make use of the following REST API call (replace 
 
 ```https://{{synapseWorkspace}}.dev.azuresynapse.net/pipelines/{{pipelineName}}/createRun?api-version=2019-06-01-preview&referencePipelineRunId=```
 
-Ensure you pass in the bearer token retrieved from the previous method for authentication.
+Ensure you pass in the bearer token retrieved from the previous method for authorisation.
 
 ![alt text](images/expl.png?raw=true)
 
