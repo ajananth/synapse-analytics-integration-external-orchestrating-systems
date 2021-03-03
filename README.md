@@ -58,7 +58,17 @@ When successful, the call returns a bearer token, which needs to be passed in su
 
 ## Perform a Data Plane Operation (e.g. Executing a Pipeline)
 
+To execute a Synapse pipeline, make use of the following REST API call (replace synapseWorkspace & pipelineName with your own).
 
+```https://{{synapseWorkspace}}.dev.azuresynapse.net/pipelines/{{pipelineName}}/createRun?api-version=2019-06-01-preview&referencePipelineRunId=```
+
+Ensure you pass in the bearer token retrieved from the previous method for authentication.
+
+![alt text](images/expl.png?raw=true)
+
+When successful, this would return a Run ID, which can be used in a subsequent call to monitor the status of the pipeline run.
+
+![alt text](images/runid.png?raw=true)
 
 ## Perform a Data Plane Operation (e.g. Monitoring Pipeline Status)
 
