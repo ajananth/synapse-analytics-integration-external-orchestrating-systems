@@ -3,7 +3,7 @@
 		"_postman_id": "88806005-85d8-46e9-91cd-2677c6648f95",
 		"name": "Synapse",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-	}
+	},
 	"item": [
 		{
 			"name": "Get Management Token",
