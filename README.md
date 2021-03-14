@@ -42,7 +42,7 @@ Ensure you pass in the bearer token retrieved in the previous call.
 
 If the call is successful, workspace details should be retrieved in a JSON packet.
 
-![alt text](images/wsps.png?raw=true)
+![alt text](images/wksps.png?raw=true)
 
 ## Retrieve a Token for Data Plane Operations
 
